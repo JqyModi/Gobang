@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Gobang">
+        <!--规格参数：表示是X * X的正方形格子：如4*4-->
+        <attr name="standard" format="integer"/>
+        <attr name="backgroud" format="color"/>
+        <!--网格线的颜色及宽度-->
+        <attr name="line_color" format="color"/>
+        <attr name="line_width" format="dimension"/>
+        <!--中心点的颜色及半径-->
+        <attr name="dot_radius" format="float"/>
+        <attr name="dot_color" format="color"/>
+        <!--棋子颜色及半径-->
+        <attr name="chessman_color1" format="color"/>
+        <attr name="chessman_radius1" format="float"/>
+        <attr name="chessman_color2" format="color"/>
+        <attr name="chessman_radius2" format="float"/>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.modi.gobang.MainActivity">
+
+    <com.modi.gobang.Gobang
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/gobang_bg"
+        app:standard="14"
+        app:line_color="#434242"
+        app:line_width="1dp"
+        app:dot_color="#000"
+        app:dot_radius="5"
+        app:chessman_color1="#fff"
+        app:chessman_color2="#000"
+        app:chessman_radius1="20"
+        app:chessman_radius2="20"
+        />
+</RelativeLayout>
